@@ -10,7 +10,6 @@ use ProjectInfinity\PocketVote\cmd\guru\GuDelCommand;
 use ProjectInfinity\PocketVote\cmd\guru\GuListCommand;
 use ProjectInfinity\PocketVote\cmd\guru\GuruCommand;
 use ProjectInfinity\PocketVote\cmd\PocketVoteCommand;
-use ProjectInfinity\PocketVote\cmd\VoteCommand;
 use ProjectInfinity\PocketVote\task\HeartbeatTask;
 use ProjectInfinity\PocketVote\task\SchedulerTask;
 use ProjectInfinity\PocketVote\task\VoteLinkTask;
