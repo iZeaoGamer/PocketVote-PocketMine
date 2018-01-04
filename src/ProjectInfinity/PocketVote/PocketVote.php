@@ -118,7 +118,6 @@ class PocketVote extends PluginBase {
         $this->expiration = 86400 * $this->getConfig()->get('vote-expiration', 7);
         $this->voteManager = new VoteManager($this);
         $this->getServer()->getCommandMap()->register('pocketvote', new PocketVoteCommand($this));
-        $this->getServer()->getCommandMap()->register('vote', new VoteCommand($this));
 
         ### MCPE Guru commands ###
         $this->getServer()->getCommandMap()->register('guru', new GuruCommand($this));
