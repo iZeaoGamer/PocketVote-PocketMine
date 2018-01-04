@@ -7,6 +7,3 @@ permissions:
   pocketvote.admin:
     description: "Allows player to manage PocketVote"
     default: op
-  pocketvote.vote:
-    description: "Allows a player to use the /vote command"
-    default: true
