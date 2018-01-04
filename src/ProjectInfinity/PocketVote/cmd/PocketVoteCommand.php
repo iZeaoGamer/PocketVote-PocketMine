@@ -16,7 +16,7 @@ class PocketVoteCommand extends Command implements PluginIdentifiableCommand {
     private $plugin;
 
     public function __construct(PocketVote $plugin) {
-        parent::__construct('pocketvote', 'PocketVote general management command', '/pocketvote [option]', ['pv']);
+        parent::__construct('pocketvote', 'PocketVote general management command', '/pocketvote [option]');
         $this->plugin = $plugin;
     }
 
