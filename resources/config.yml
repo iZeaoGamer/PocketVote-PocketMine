@@ -1,12 +1,12 @@
 version: 0
-identity: ''
-secret: ''
+identity: '88EGGPZ32'
+secret: '5P3ZA9PCGZ5T5NCYKE'
 lock: false
 vote-expiration: 7
 opt-out-usage: false
 onvote:
-  - cmd: tell %player Thanks for voting at %site!
+  - cmd: bc &b&l» &r&b%player &3is online, and has voted for us at: &b%site! &3They need to type &b/vote claim &3tk receive their rewards!
     player-online: true
-  - cmd: say Thanks for voting for us at %site, %player!
+  - cmd: bc &c&l» &r&4%player &cis offline, and has voted for us at: &4%site
     player-online: false
 votes: []
